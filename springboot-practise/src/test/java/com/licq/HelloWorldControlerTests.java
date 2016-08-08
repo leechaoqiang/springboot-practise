@@ -21,6 +21,10 @@ import com.licq.web.HelloWorldController;
 @WebAppConfiguration
 public class HelloWorldControlerTests {
 	private MockMvc mvc;
+	/*
+	 *1.junit直接启动可以测试。得到MockMvc模拟http请求的结果 
+	 * 
+	 * */
 	
 	@Before
 	 public void setUp() throws Exception {
